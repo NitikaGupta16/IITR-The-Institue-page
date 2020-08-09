@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset = "utf-8">
+	<meta name = "viewport" content = "width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+   <link rel="stylesheet" href="css/styles.css"/>
+
+   <link href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Noto+Serif:wght@700&family=Noto+Sans+TC:wght@300;500&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <script src="js/script.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<header>
+		<div class="main-header">
+			<a href="https://www.iitr.ac.in/Main/pages/_en_Indian_Institute_of_Technology_Roorkee__en_.html">
+				<img src="images/logo.png">
+			</a>
+		</div>
+
+		<nav class = "navbar navbar-expand-lg fixed navbar-dark bg-dark ">
+			<div class = "container">
+				<button id="navbarToggle" class="navbar-toggler" type="button" data-toggle="collapse"data-target="#navbarCol" aria-controls="navbarCol" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+            <div class = "collapse navbar-collapse" id="navbarCol">
+            	<ul class = "navbar-nav m-auto">
+
+            		<li class = "nav-item dropdown" style="background-color: #03A9F4;">
+            			<a class="nav-link" id="Dropdown1" data-toggle="dropdown" aria-haspopup="true" aria-expande="false" href="/institute/pages/The_Institute.html">Institute</a>
+            			<ul class="dropdown-menu" aria-labelledby="Dropdown1">
+            				<li class="dropdown-item"><a href="/Main/pages/_en_Indian_Institute_of_Technology_Roorkee__en_.html">IITR Home</a></li>
+            				<li class="dropdown-item"><a href="/institute/pages/The_Institute.html">The Institute</a></li>
+            				<li class="dropdown-item"><a href="/institute/pages/Heritage.html">Our Heritage</a></li>
+            				<li class="dropdown-item"><a href="/institute/pages/Heritage+Luminaries.html">Luminaries</a></li>
+            				<li class="dropdown-item"><a href="/institute/pages/Institute_Time_Capsule.html">Institute Time Capsule</a></li>
+            				<li class="dropdown-item"><a href="/institute/pages/Governing_Acts.html">Governing Acts</a></li>
+            				<li class="dropdown-item"><a href="/Main/pages/IITR_Videos.html">IITR Videos</a></li>
+            				<li class="dropdown-item"><a href="/institute/pages/History.html">History</a></li>
+            			</ul>
+            		</li>
+            		
+            		<li class = "nav-item dropdown">
+            			<a class="nav-link" id="Dropdown2" data-toggle="dropdown" aria-haspopup="true" aria-expande="false" href="/academics/pages/About_us.html">Academics</a>
+            			<ul class="dropdown-menu" aria-labelledby="Dropdown2">
+            				<li class="dropdown-item"><a href="/academics/pages/Undergraduate_Programmes_Including_M_Sc__.html">UG Programmes (Including M.Sc.)</a></li>
+            				<li class="dropdown-item"><a href="/academics/pages/Postgraduate_Programmes_Including_Ph_D__.html">PG Programmes (Including Ph.D)</a></li>
+            				<li class="dropdown-item"><a href="http://acad.iitr.ac.in/">Academic Login</a></li>
+            			</ul>
+            		</li>
+
+						<li class = "nav-item dropdown">
+							<a class="nav-link" id="Dropdown3" data-toggle="dropdown" aria-haspopup="true" aria-expande="false" href="/admissions/pages/Freshers'_Special:_Main_Page.html">Admissions</a>
+							<ul class="dropdown-menu" aria-labelledby="Dropdown3">
+								<li class="dropdown-item"><a href="/admissions/pages/Undergraduate.html">UG Admission</a></li>
+								<li class="dropdown-item"><a href="/admissions/pages/Postgraduate.html">PG Admission</a></li>
+								<li class="dropdown-item"><a href="/admissions/pages/Phd.html">PhD Admission</a></li>
+								<li class="dropdown-item"><a href="http://awards.iitr.ac.in/scholarship/scholarship.php">Scholarships, Prizes and Awards</a></li>
+								<li class="dropdown-item"><a href="/Main/pages/_en_For_Prospective_Students__en_.html">Prospective Students </a></li>
+								<li class="dropdown-item"><a href="/admissions/pages/Contacts.html">Contact</a></li>
+							</ul>
+            		</li>
+
+            		<li class = "nav-item dropdown">
+							<a class="nav-link" id="Dropdown4" data-toggle="dropdown" aria-haspopup="true" aria-expande="false" href="/administration/pages/Institute_Central_Administration.html">Administration</a>
+							<ul class="dropdown-menu" aria-labelledby="Dropdown4">
+								<li class="dropdown-item"><a href="/administration/pages/Institute_Central_Administration.html">Organization</a></li>
+								<li class="dropdown-item"><a href="/administration/pages/Administration+Senate.html">Senate</a></li>
+								<li class="dropdown-item"><a href="/administration/pages/Organization+Board_of_Governors.html">Board of Governors</a></li>
+								<li class="dropdown-item"><a href="/administration/pages/Administration+Students__Affairs_Council.html">Students' Affairs Council</a></li>
+								<li class="dropdown-item"><a href="/administration/pages/Organization+IIT_Council.html">IIT Council</a></li>
+								<li class="dropdown-item"><a href="/Main/pages/_en_Right_To_Information__en_.html">RTI</a></li>
+								<li class="dropdown-item"><a href="/administration/pages/Administration+DAPC_Student_Representatives.html">DAPC Student Representatives</a></li>
+							</ul>          		
+						</li>
+
+            		<li class = "nav-item dropdown">
+							<a class="nav-link" id="Dropdown5" data-toggle="dropdown" aria-haspopup="true" aria-expande="false" href="/campus_life/pages/index.html">Campus Life</a>
+							<ul class="dropdown-menu" aria-labelledby="Dropdown5">
+								<li class="dropdown-item"><a href="/campus_life/pages/Hostels.html">Hostels</a></li>
+								<li class="dropdown-item"><a href="/campus_life/pages/Sports.html">Sports</a></li>
+								<li class="dropdown-item"><a href="/campus_life/pages/Clubs.html">Clubs</a></li>
+								<li class="dropdown-item"><a href="/campus_life/pages/Groups_and_Societies.html">Groups</a></li>
+								<li class="dropdown-item"><a href="/campus_life/pages/Facilities.html">Facilities</a></li>
+								<li class="dropdown-item"><a href="/campus_life/pages/Guest_Houses.html">Guest Houses</a></li>
+								<li class="dropdown-item"><a href="/campus_life/pages/FAQ.html">Freshers FAQ</a></li>
+							</ul>
+	            	</li>
+
+            		<li class="nav-item dropdown">
+            			<a class="nav-link" id="Dropdown6" data-toggle="dropdown" aria-haspopup="true" aria-expande="false" href="/Main/pages/_en_Departments__en_.html">Departments</a>
+            			<ul class="dropdown-menu" aria-labelledby="Dropdown6">
+            				<li class="dropdown-item"><a href="/Main/pages/_en_Departments__en_.html">Departments</a></li>
+            				<li class="dropdown-item"><a href="/Main/pages/_en_Centers__en_.html">Centres</a></li></ul>
+            		</li>
+
+            		<li class="nav-item dropdown">
+            			<a class="nav-link" id="Dropdown7" data-toggle="dropdown" aria-haspopup="true" aria-expande="false" href="/research/pages/index.html">Research</a>
+            			<ul class="dropdown-menu" aria-labelledby="Dropdown7">
+            				<li class="dropdown-item"><a href="https://www.iitr.ac.in/dstai/">Africa – India S&amp;T initiative</a></li>
+            				<li class="dropdown-item"><a href="https://channeli.in/equipments">Equipment Search</a></li>
+            				<li class="dropdown-item"><a href="http://192.168.124.175/login.aspx">Equipment Usage</a></li>
+            			</ul>
+            		</li>
+
+            		<li class="nav-item dropdown">
+            			<a class="nav-link" id="Dropdown8" data-toggle="dropdown" aria-haspopup="true" aria-expande="false" href="/Placements/pages/index.html">Recruitments</a>
+            			<ul class="dropdown-menu" aria-labelledby="Dropdown8">
+            				<li class="dropdown-item"><a href="/Placements/pages/index.html">Campus Recruitments</a></li>
+            				<li class="dropdown-item"><a href="/administration/pages/Openings+Faculty.html">Faculty Recruitments</a></li>
+            				<li class="dropdown-item"><a href="/administration/pages/Openings+Other_Job_Openings.html">Other Job Openings</a></li>
+            				<li class="dropdown-item"><a href="/administration/pages/Openings+Project_Jobs.html">Project Jobs</a></li>
+            				<li class="dropdown-item"><a href="http://spark.iitr.ac.in/">Spark</a></li>
+            				<li class="dropdown-item"><a href="/administration/pages/Openings+Frequently_Asked_Questions.html">FAQ</a></li>
+            			</ul>
+            		</li>
+
+            		<li class="nav-item dropdown">
+            			<a class="nav-link" id="Dropdown9" data-toggle="dropdown" aria-haspopup="true" aria-expande="false" href="http://10.22.1.206/mmweb/">Tenders</a>
+            			<ul class="dropdown-menu" aria-labelledby="Dropdown9">
+            				<li class="dropdown-item"><a href="/administration/pages/Tenders_EOI.html">Tenders/EOI</a></li>
+            				<li class="dropdown-item"><a href="/administration/pages/Quotation.html">Quotations</a></li>
+            			</ul>
+            		</li>  
+
+            	</ul>
+            </div>
+
+
+			</div>
+		</nav>
+	</header>
+		
+	<div class="main-head container">
+		<img src="images/institute.jpg">
+		<div class="content text-center" >
+			The Institute
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-3 sidenav">
+				<dl>
+					<dt class="title" style="background-color: #03A9F4;">
+						<a href="">The Institute</a>
+					</dt>
+					<dt class="title">
+						<a href="">About</a>
+					</dt>
+					<dt class="title">
+						<a href="">Convocation</a>
+					</dt>
+					<dt class="title">
+						<a href="">OurHeritage</a>
+					</dt>
+					<dt class="title">
+						<a href="">Luminaries</a>
+					</dt>
+					<dt class="title">
+						<a href="">150 Years</a>
+					</dt>
+					<dt class="title">
+						<a href="">Geography</a>
+					</li>
+					<dt class="title">
+						<a href="">Institute TimeCapsule</a>
+					</dt>
+					<dt class="title">
+						<a href="">History</a>
+					</dt>
+					<dt class="title">
+						<a href="">How to reach IIT Roorkee</a>
+					</dt>
+					<dt class="title">
+						<a href="">Governing Acts</a>
+					</dt>
+					<dt class="title">
+						<a href="">List of Holidays</a>
+					</dt>
+					<dt class="title">
+						<a href="">IITR Home</a>
+					</dt>
+				</dl>
+			</div>
+
+			<div class="col-9 main-content">
+				<div class = "main-content-head">
+					<!--	<i class="material-icons">label</i>     -->
+
+					Vision
+				
+				</div>
+				<div class = "main-content-material">
+					<div>
+						To attain global level of excellence in education and to create a sustainable and equitable society through innovative research in science and technology.
+					</div>
+				</div>
+
+				<div class = "main-content-head">
+				<!--	<i class="material-icons">label</i>     -->
+					<span>
+						Mission
+					</span>
+				</div>
+				<div class = "main-content-material">
+					<div>
+						To create an environment that shall foster the growth of intellectually capable, innovative and entrepreneurial professionals, who shall contribute to the growth of Science and Technology in partnership with industry and develop and harness it for the welfare of the nation and mankind.
+					</div>
+				</div>
+
+				<div class = "main-content-head">
+				<!--	<i class="material-icons">label</i>     -->
+					<span>
+						Core Values
+					</span>
+				</div>
+				<div class = "main-content-material">
+					<div>
+						<ul>
+							<li>Academic integrity and accountability</li>
+							<li>Respect and tolerance for the views of every individual</li>
+							<li>Attention to issues of national relevance as well as of global concern</li>
+							<li>Holistic understanding, including knowledge of the human sciences</li>
+							<li>Appreciation of intellectual excellence and creativity</li>
+							<li>An unfettered spirit of learning exploration, rationality and enterprise</li>
+							<li>Sensitivity to social responsibilities</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class = "main-content-head">
+				<!--	<i class="material-icons">label</i>     -->
+					<span>
+						About IIT Roorkee
+					</span>
+				</div>
+				<div class = "main-content-material">
+					<div>
+						Indian Institute of Technology - Roorkee is among the foremost of institutes of national importance in higher technological education and in engineering, basic and applied research. Since its establishment, the Institute has played a vital role in providing the technical manpower and know-how to the country and in pursuit of research. The Institute ranks amongst the best technological institutions in the world and has contributed to all sectors of technological development. It has also been considered a trend-setter in the area of education and research in the field of science, technology, and engineering.
+						<br><br>
+						The Institute had celebrated its Sesquicentennial in October 1996 and now completed more than 170 years of its existence. It was converted to IIT on September 21, 2001 by an Ordinance issued by the Government of India declared it as the nation’s seventh Indian Institute of Technology, an “Institution of National Importance”.
+						<br><br>
+						The Institute offers Bachelor's Degree courses in 10 disciplines of Engineering and Architecture and Postgraduate's Degree in 55 disciplines of Engineering, Applied Science, Architecture and planning. The Institute has facility for doctoral work in all Departments and Research Centres.
+						<br><br>
+						​The Institute admits students to B.Tech. and B.Arch. courses through the Joint Entrance Examination (JEE) conducted at various centres all over India.
+					
+					</div>
+				</div>
+
+
+
+
+
+
+			</div>
+		</div>
+	</div>
+	
+
+
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+
+				<div class="col">
+					<h1>DEANS' CORNER</h1>
+					<ul>
+	                <a href="/academics/pages/About_us.html">
+	                    <li>Academic Affairs</li>
+	                </a>
+	                <a href="https://www.iitr.ac.in/Main/pages/establishments+Establishment_Services.html">
+	                    <li>Administration</li>
+	                </a>
+	                <a href="https://www.iitr.ac.in/dosw/">
+	                    <li>DOSW</li>
+	                </a>
+	                <a href="https://www.iitr.ac.in/administration/pages/Administration+DOFA+DOFA.html">
+	                    <li>Faculty Affairs</li>
+	                </a>
+	                <a href="https://www.iitr.ac.in/Main/pages/_en_Office_of_Dean_Finance_and_Planning___en_.html">
+	                    <li>Finance & Planning</li>
+	                </a>
+	                <a href="https://www.iitr.ac.in/estateworks/">
+	                    <li>Infrastructure</li>
+	                </a>
+	                <a href="http://daair.iitr.ac.in/">
+	                    <li>Resources and Alumni Affairs</li>
+	                </a>
+	                <a href="https://www.iitr.ac.in/sric/">
+	                    <li>SRIC</li>
+	                </a>         
+	                                
+	            </ul>
+				</div>
+
+
+				<div class="col">
+					<h1>PORTALS</h1>
+					<ul>
+	            	 <li>
+		               <a style="color:#ddd" href="/channeli">
+		                   Channel I /
+		               </a>  
+		               <a style="color:#ddd" href="https://www.iitr.ac.in/Main/pages/Advaita.html">
+		                  Advaita
+		               </a>                  
+	                </li>                              
+	                <a href="http://ghbooking.iitr.ac.in/">
+	                    <li>Guest House Booking</li>
+	                </a>
+	                <a href="https://www.iitr.ac.in/internalaudit/">
+	                    <li>Internal Audit</li>
+	                </a>
+	                <a href="http://mgcl.iitr.ac.in/">
+	                    <li>Library</li>
+	                </a>
+	                <a href="https://channeli.in/meeting_minutes/">
+	                    <li>Minutes of Meetings</li>
+	                </a>
+	                <li>
+	                    <a style="color:#ddd" href="https://www.iitr.ac.in/elc/">
+	                        NPTEL/
+	                    </a>                                       
+	                    <a style="color:#ddd" href="https://www.iitr.ac.in/centers/CCE/pages/About_Us.html">
+	                        CEC/
+	                    </a>
+	                    <a style="color:#ddd" href="http://qip.iitr.ac.in:8080/qipwebsite/">
+	                        QIP/
+	                    </a>
+	                    <a style="color:#ddd" href="https://www.iitr.ac.in/teqip/">
+	                        TEQIP
+	                    </a>
+	                </li>
+	                <a href="https://www.iitr.ac.in/support/">
+	                    <li>Support</li>
+	                </a>      
+	               <a href="https://www.iitr.ac.in/support/email/select/">
+	                <li>Webmail</li>
+	              </a>    
+	    
+	            </ul>
+				</div>
+
+
+				<div class="col">
+					<h1>FUNDS TRANSFER</h1>
+					<ul>
+	                <a href="https://www.onlinesbi.com/prelogin/icollecthome.htm?corpID=365641">
+	                    <li>Conference Registration Fees</li>
+	                </a>
+	                <a href="https://www.onlinesbi.com/sbicollect/icollecthome.htm?corpID=339356">
+	                    <li>Contribution For Medical Emergency</li>
+	                </a>
+	                <a href="http://awards.iitr.ac.in/donors/top-donors.php">
+	                    <li>Giving Back</li>
+	                </a>                
+	                <a href="https://www.iitr.ac.in/academics/pages/ONLINE_FEE_SUBMISSION.html">
+	                    <li>Online Fee Deposit</li>
+	                </a>
+	            </ul>
+	            <h1>Women's Cell</h1>
+	            <ul>
+	                <a href="http://iitr.ac.in/internalcomplaintscommittee">
+	                    <li>Internal Complaints Committee</li>
+	                </a>
+	            </ul>
+				</div>
+
+
+				<div class="col">
+					<h1>OTHER LINKS</h1>
+					<ul>
+	                <a href="https://www.iitr.ac.in/anushruti/">
+	                    <li>Anushruti Academy for Deaf</li>             
+	                </a>
+	                <a href="https://www.iitr.ac.in/calendar/">
+	                    <li>Calendar</li>
+	                </a>
+	                <a href="https://www.iitr.ac.in/Main/pages/Contact_Us.html">
+	                    <li>Contact Us</li>
+	                </a>
+	                <li>
+	                    <a style="color:#ddd" href="https://www.iitr.ac.in/Main/pages/NIRF.html">
+	                        NIRF/
+	                    </a>                    
+	                    <a style="color:#ddd" href="https://www.iitr.ac.in/Main/pages/ARIIA.html">
+	                        ARIIA
+	                    </a>                    
+	                </li> 
+	                <a href="https://www.iitr.ac.in/Main/pages/_en_IITR_Presentation__en_.html">
+	                    <li>Presentation template</li>
+	                </a>
+	                <a href="https://www.iitr.ac.in/Main/pages/_en_Right_To_Information__en_.html">
+	                    <li>Right To Information</li>
+	                </a>
+	                <a href="https://www.iitr.ac.in/Main/pages/Telephone+Telephone_Directory.html">
+	                    <li>Telephone Directory</li>
+	                </a>
+	                <li>
+	                    <a style="color:#ddd" href="https://www.thomso.in/">
+	                        Thomso/
+	                    </a>
+	                    <a style="color:#ddd" href= "https://www.iitr.ac.in/institute/pages/Cognizance.html">
+	                       Cognizance/
+	                    </a>
+	                    <a style="color:#ddd" href= "http://srishti.iitr.ac.in/">
+	                       Srishti
+	                    </a>
+	                </li>  
+	            </ul>             
+	        </div>
+	      </div>
+      </div>
+	</div>		
+
+</body>
+</html>
